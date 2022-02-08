@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+:root{
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+
+body{
+    background-color: var(--dark-cyan);
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+/* Background Elements */
+
+.top-bg,
+.bottom-bg{
+    position: absolute;
+    z-index: -1;
+}
+
+.top-bg{
+    top: -40%;
+    right: 55%;
+}
+
+.bottom-bg{
+    top: 40%;
+    left: 50%;
+}
+
+/* Profile Card Elements */
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.info-container{
+    background-color: white;
+    flex-direction: column;
+    max-width: 20rem;
+    margin: auto;
+    border-radius: 1rem;
+    position: relative;
+    margin-top: 10%;
+}
+
+.img-header{
+    background: url(images/bg-pattern-card.svg);
+    width: 100%;
+    height: 9rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    overflow: visible;
+}
+
+img:not(.top-bg, .bottom-bg){
+    margin-top: 45%;
+    border-radius: 50%;
+    border: 5px white solid;
+} 
+
+h1{
+    margin-top: 4.25rem;
+    font-size: 1rem;
+}
+
+.title-span{
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+    padding-left: .4rem;
+}
+
+p{
+    margin-top: .5rem;
+    color: var(--dark-grayish-blue);
+    font-size: .8rem;
+}
+
+hr{
+    margin-top: 5%;
+    border: 1px solid var(--dark-grayish-blue);
+    width: 100%;
+    opacity: .2;
+
+}
+
+ul{
+    flex-direction: row;
+    list-style: none;
+}
+
+li{
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.info-span{
+    font-size: .65rem;
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+    letter-spacing: .05rem;
+}
+
+footer{
+    margin-top: 20%;
+}
+
+@media screen and (max-width: 375px){
+    footer{
+        margin-top: 70%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
